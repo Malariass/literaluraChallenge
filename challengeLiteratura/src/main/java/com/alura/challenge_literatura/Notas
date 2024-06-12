@@ -1,0 +1,11 @@
+No tenemos paquete:
+
+* CONFIG: ya que será una aplicación de consola y no será necesario configurar addCorsMappings para el manejo de diferentes peticiones.
+
+* CONTROLLER: por lo expuesto previamente, la api sera de consola y no hay  que realizar Mapping() de DTO para transferir datos a FrontEnd u otros Microservicios
+que necesiten consumir peticiones.
+
+* DOT: Por lo expuesto previamente no voy a crear DOTs.
+
+
+
